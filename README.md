@@ -1,3 +1,3 @@
-## Welcome to MyPage
+## Welcome
 
-This is my first training project
+Terminal web view
