@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+body {
+	padding: 0;
+	margin: 0;
+    font-family: 'Ubuntu', cursive;
+	color: black;
+	font-size: 16px;
+	background-color: rgb(95, 95, 95);
+	padding: 150px 350px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	
+}
+
+a {
+	text-decoration: none;
+	color: rgb(23, 255, 73);
+}
+
+.terminal {
+	background-color: rgb(0, 0, 0);
+	color: rgb(23, 255, 73);
+	border: 2px solid rgb(179, 179, 179);
+	border-radius: 30px;
+	box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+	padding-bottom: 150px;
+	height: 400px;
+}
+
+.title {
+	background-color: rgb(179, 179, 179);
+	color: rgb(0, 0, 0);
+	display: flex;
+	border-radius: 28px 28px 0 0;
+	justify-content: flex-end;
+}
+
+.title img {
+	height: 15px;
+	margin: auto 0;
+	padding: 0 20px 0 220px;
+}
+
+.title p {
+	padding: 0;
+	margin: 5px;
+}
+
+.term {
+	padding: 10px;
+}
+
+a span {
+	color: red;
+}
+
+.space {
+	margin-left: 30px;
+}
+
+.add {
+    word-break: break-all;
+}
+
+/*Адаптив*/
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	
+}
+
+ /*768px - 992px */
+@media screen and (max-width: 992px) {
+	
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	body {
+		padding: 0;
+		padding-top: 50px;
+		font-size: 26px;
+	}
+	
+	.terminal {
+		height: 900px;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.terminal {
+		height: 300px;
+		margin: 25px;
+		font-size: 15px;
+	}
+
+	.title img {
+		padding: 0 12px 0 10px;
+	}
+
+	.title {
+		padding: 8px;
+	}
+
+	.title p {
+		margin: 0 0 0 12px
+	}
+}
+
+
