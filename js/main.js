@@ -1,7 +1,7 @@
 $('document').ready(function() {
     var typeSpeed = 55
     var typed = new Typed("#typed", {
-        strings: ["Приветствуем!", "Дорогие гости!", "Приглашаем Вас на свадьбу Кристины и Дмитрия!"],
+        strings: ["Приветствуем!", "Дорогие гости!", "Приглашаем Вас на свадьбу Дмитрия и Кристины!"],
         typeSpeed: typeSpeed,
 
         onComplete: function(self) {
