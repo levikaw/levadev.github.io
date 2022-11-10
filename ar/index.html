@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
-<!--     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
-    <script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
-    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script> -->
-
     <script src="aframe.min.js"></script>
     <script src="gestures.js"></script>
     <script src="aframe-ar.js"></script>
-    <!-- <script src="./aframe-ar-custom.js"></script> -->
-    
-    <body style="margin : 0px; overflow: hidden;">
+
+    <link rel="stylesheet" href="./style.css">
+    <body>
+        <div class="wrap">
+            <a class="btn" href="https://t.me/Wedding_DK_Bot" target="_blank">Click here!</a>
+        </div>
+
         <a-scene arjs embedded renderer="logarithmicDepthBuffer: true;" vr-mode-ui="enabled: false" gesture-detector id="scene">
 
             <a-assets>
                 <a-asset-item id="bowser" src="bowser.glb"></a-asset-item>
-                <!-- <a-asset-item id="bowser" src="https://cdn.glitch.com/06bd98b4-97ee-4c07-a546-fe39ca205034%2Fbowser.glb"></a-asset-item> -->
             </a-assets>
 
             <!-- <a-marker preset='kanji' raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="markerB">
