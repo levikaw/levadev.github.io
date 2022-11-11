@@ -1,3 +1,3 @@
 ## Welcome
 
-Terminal web view
+Some info about
