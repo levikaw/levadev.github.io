@@ -1,3 +1,2 @@
-## Welcome
+## Welcome main page
 
-Some info about
